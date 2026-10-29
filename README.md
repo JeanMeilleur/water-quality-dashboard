@@ -3,8 +3,8 @@
 An interactive Streamlit dashboard for exploring water quality readings collected by an
 autonomous surface vehicle in Biscayne Bay, Miami.
 
-**Live app:** https://YOUR-APP-NAME.streamlit.app
-**Repository:** https://github.com/YOUR-USERNAME/water-quality-dashboard
+**Live app:** https://water-quality-dashboard-rg4jvsjvb7qiyey6xbytch.streamlit.app/
+**Repository:** https://github.com/JeanMeilleur/water-quality-dashboard
 
 Built for CIS 3590 – Internship-Ready Software Development (Prof. Gregory Reis),
 Florida International University.
@@ -58,7 +58,7 @@ automatically detected and made available in every chart.
 ## Running it locally
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/water-quality-dashboard.git
+git clone https://github.com/JeanMeilleur/water-quality-dashboard.git
 cd water-quality-dashboard
 
 python -m venv .venv

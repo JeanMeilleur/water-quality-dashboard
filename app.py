@@ -6,9 +6,9 @@ from pathlib import Path       # safe file paths (works on Windows, Mac, Linux, 
 # to run: streamlit run app.py
 # if it doesn't work, try: python -m streamlit run app.py
 
-# ----------------------------------------------------------
+
 # PAGE CONFIG
-# ----------------------------------------------------------
+
 st.set_page_config(
     page_title="Water Quality Dashboard",
     page_icon="💧",
@@ -19,9 +19,9 @@ st.set_page_config(
 DEFAULT_CSV = Path(__file__).parent / "data" / "biscayneBay_waterquality.csv"
 
 
-# ----------------------------------------------------------
+
 # DATA LOADING
-# ----------------------------------------------------------
+
 @st.cache_data
 def load_data(source):
     """Read the CSV, clean the column names, parse the Time column."""
